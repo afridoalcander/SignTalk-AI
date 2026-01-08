@@ -16,7 +16,7 @@ The initial stage involves building a custom dataset of hand landmarks.
 
 ### 2. AI Model Training (src/02_Training_Model.py)
 After collecting the data, the AI must be trained to recognize the patterns within the coordinates.
-- Process: This script processes the sign_data.csv file using Machine Learning algorithms to classify the gestures.
+- Process: This script processes the dataset_2_tangan.csv file using Machine Learning algorithms to classify the gestures.
 - Output: The system generates an Accuracy Percentage, providing a metric of the model's reliability.
 - Purpose: To create the intelligence layer required for real-time predictions.
 
