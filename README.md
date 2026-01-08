@@ -11,7 +11,7 @@ The project is designed to be modular. To build the system or add new vocabulary
 ### 1. Data Collection (src/01_Data_Collection.py)
 The initial stage involves building a custom dataset of hand landmarks.
 - Process: The script utilizes the camera and MediaPipe to track 21 specific hand landmark coordinates.
-- Output: The x, y, and z coordinates are captured in real-time and stored in a file named sign_data.csv.
+- Output: The x, y, and z coordinates are captured in real-time and stored in a file named dataset_2_tangan.csv.
 - Purpose: To establish a foundation of raw data for every gesture intended for recognition.
 
 ### 2. AI Model Training (src/02_Training_Model.py)
